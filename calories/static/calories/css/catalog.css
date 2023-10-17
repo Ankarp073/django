@@ -1,0 +1,16 @@
+body {
+    position: relative;
+    padding-left: 10%;
+
+    background-image: url('/static/calories/img/catalog.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.catalog_menu {
+    margin: 20px 0 0 530px;
+    font-size: 30px;
+    color: firebrick;
+}
