@@ -1,57 +1,4 @@
-<<<<<<< HEAD
 
-{% load static %}
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>History</title>
-    <link rel="stylesheet" href="{% static 'calories/css/history.css' %}">
-</head>
-
-<body>
-
-<div class="header">
-    <a href="#">Вход</a>
-    <a href="#">Регистрация</a>
-    <br>
-    <br>
-
-    <a href="{% url 'homepage' %}">Домашняя страница</a>
-
-    <a href="{% url 'catalog' %}">Каталог продуктов</a>
-    <a href="{% url 'counter' %}">Подсчет калорий</a>
-    <a href="{% url 'history' %}">История</a>
-
-</div>
-
-<main>
-
-    <div class="count_calculator">
-
-        <h2>Каталог продуктов</h2>
-        <br>
-        <p>1.Гречневая каша вареная (100гр)</p>
-        <p>2.Жареная рыба ~Судак~ (100гр)</p>
-        <p>3.Шашлык ~Свинная шейка~ (100гр)</p>
-        <br>
-        <br>
-
-        <h1>Подсчет калорий</h1>
-        <br>
-        <p1>1...........</p1>
-        <p1>2...........</p1>
-        <p1>3...........</p1>
-
-    </div>
-
-</main>
-
-</body>
-</html>
-
-=======
 {% extends 'base.html' %}
 {% load static %}
 {% block style %}
@@ -60,12 +7,9 @@
 
 {% endblock style %}
 
-
-
-
 {% block body %}
   <h1>История</h1>
     <p>Сюда нужно сохранять базу прошедших съеденных продуктов, каждый раз её прибавляя...</p>
     <p>Весь функционал должен прописываться во views</p>
 {% endblock body %}
->>>>>>> 50a57a26e201d187100eae1bdda55e3353d6a1fb
+

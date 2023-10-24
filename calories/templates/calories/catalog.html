@@ -1,48 +1,4 @@
-<<<<<<< HEAD
 
-{% load static %}
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Catalog</title>
-    <link rel="stylesheet" href="{% static 'calories/css/catalog.css' %}">
-</head>
-
-<body>
-
-<div class="header">
-    <a href="##">Вход</a>
-    <a href="##">Регистрация</a>
-    <br>
-    <br>
-
-    <a href="{% url 'homepage' %}">Домашняя страница</a>
-
-    <a href="{% url 'catalog' %}">Каталог продуктов</a>
-    <a href="{% url 'counter' %}">Подсчет калорий</a>
-    <a href="{% url 'history' %}">История</a>
-
-</div>
-
-<main>
-
-    <div class="catalog_menu">
-
-        <h1>Каталог продуктов</h1>
-        <br>
-        <p>1.Гречневая каша вареная (100гр)</p>
-        <p>2.Жареная рыба ~Судак~ (100гр)</p>
-        <p>3.Шашлык ~Свинная шейка~ (100гр)</p>
-
-    </div>
-
-</main>
-
-</body>
-</html>
-=======
 {% extends 'base.html' %}
 {% load static %}
 {% block style %}
@@ -58,4 +14,4 @@
     <p>2.Жареная рыба ~Судак~ (100гр)</p>
     <p>3.Шашлык ~Свинная шейка~ (100гр)</p>
 {% endblock %}
->>>>>>> 50a57a26e201d187100eae1bdda55e3353d6a1fb
+

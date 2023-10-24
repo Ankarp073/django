@@ -1,29 +1,4 @@
 
-{% load static %}
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Catalog</title>
-    <link rel="stylesheet" href="{% static 'calories/css/count.css' %}">
-</head>
-
-<body>
-
-<div class="header">
-    <a href="#">Вход</a>
-    <a href="#">Регистрация</a>
-    <br>
-    <br>
-
-    <a href="{% url 'homepage' %}">Домашняя страница</a>
-
-    <a href="{% url 'catalog' %}">Каталог продуктов</a>
-    <a href="{% url 'counter' %}">Подсчет калорий</a>
-    <a href="{% url 'history' %}">История</a>
-
-</div>
 
 <main>
 
